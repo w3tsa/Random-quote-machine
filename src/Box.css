@@ -1,0 +1,36 @@
+.Box {
+  text-align: center;
+  padding: 1rem;
+  width: 30rem;
+  -webkit-box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 9px -1px rgba(0, 0, 0, 0.75);
+}
+
+.animate {
+  animation: blur ease-in-out 1s;
+}
+
+@keyframes blur {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+.box-author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(245, 244, 244);
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+}
