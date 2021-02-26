@@ -4,7 +4,7 @@ import "./Box.css";
 class Box extends Component {
   render() {
     return (
-      <div className="Box" style={{ backgroundColor: "white" }}>
+      <div className="Box" style={{ backgroundColor: "#dbd9e0" }}>
         <p
           style={{ color: this.props.color }}
           className={`${this.props.animate ? "animate" : ""}`}
