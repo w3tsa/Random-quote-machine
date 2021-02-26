@@ -1,2 +1,2 @@
 # Random-quote-machine
-Created with CodeSandbox
+This is a React Application mostly based on front end development
